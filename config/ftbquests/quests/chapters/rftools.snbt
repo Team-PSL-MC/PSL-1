@@ -1,0 +1,10 @@
+{
+	id: "1F02FA077F2390DD"
+	group: "50E77400C5D9511B"
+	order_index: 5
+	filename: "rftools"
+	title: "RFTools"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

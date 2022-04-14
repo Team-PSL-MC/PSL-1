@@ -1,0 +1,63 @@
+{
+	id: "637F1686AE0216D5"
+	group: "583DD0D896FA2405"
+	order_index: 0
+	filename: "everything"
+	title: "Everything"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			icon: {
+				id: "multibeds:classic"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						texture_item: {
+							id: "minecraft:oak_planks"
+							Count: 1b
+						}
+					}
+				}
+			}
+			x: -4.5d
+			y: 2.5d
+			subtitle: "Variety of different and combinable beds"
+			id: "79C3AD42CF61B63D"
+			tasks: [{
+				id: "226E53A823A37C55"
+				type: "checkmark"
+				title: "Mutibeds"
+			}]
+			rewards: [{
+				id: "412620B58B5D409C"
+				type: "item"
+				item: "multibeds:bed_kit"
+			}]
+		}
+		{
+			title: "Prefabs"
+			x: -4.5d
+			y: 0.5d
+			id: "3366A98F33E01A7C"
+			tasks: [{
+				id: "5B1D2832742B4CEC"
+				type: "item"
+				item: "prefab:item_starter_farm"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			subtitle: "Powerful World Editor"
+			description: ["In-game Minecraft map editor - build bigger things more quickly!"]
+			id: "56344A6041DEA735"
+			tasks: [{
+				id: "11C7D868724BABC6"
+				type: "checkmark"
+				title: "WorldEdit"
+			}]
+		}
+	]
+}

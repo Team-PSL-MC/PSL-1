@@ -1,0 +1,12 @@
+{
+	id: "597EC6C4CDB5090F"
+	group: "50E77400C5D9511B"
+	order_index: 2
+	filename: "create"
+	title: "Create"
+	icon: "create:cogwheel"
+	subtitle: ["Welcome to Create, a mod offering a variety of tools and blocks for Building, Decoration and Aesthetic Automation."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

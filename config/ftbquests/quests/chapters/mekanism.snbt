@@ -1,0 +1,12 @@
+{
+	id: "202855BADFCDF61D"
+	group: "50E77400C5D9511B"
+	order_index: 0
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:ingot_osmium"
+	subtitle: ["High-tech machinery, powerful energy generation, fancy gadgets and more."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

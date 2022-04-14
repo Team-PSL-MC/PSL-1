@@ -1,0 +1,67 @@
+{
+	id: "1851954C388AC949"
+	group: "06AC45B6636471CA"
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 3.0d
+			id: "3BF46C653ADA93CE"
+			tasks: [{
+				id: "009AD5791D982DCA"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "0D64633FB9D36EFF"
+				type: "loot"
+				table_id: 4220896936447314662L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			id: "6120D4196E6BC94C"
+			tasks: [{
+				id: "39A57FB985AC5616"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "3B6AE2E2F4A4DE3F"
+			tasks: [{
+				id: "0019B1F41E470D0A"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			id: "5488D6BC30285F41"
+			tasks: [{
+				id: "1E22AA28A4C181E7"
+				type: "checkmark"
+				title: "Car"
+			}]
+		}
+		{
+			title: "Planes"
+			x: -2.0d
+			y: 4.5d
+			id: "6150D0DC1B1D2595"
+			tasks: [{
+				id: "5A8811D3FD485F54"
+				type: "item"
+				item: "plane:plane_oak"
+			}]
+		}
+	]
+}

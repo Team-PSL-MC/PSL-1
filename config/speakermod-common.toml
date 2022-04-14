@@ -1,0 +1,12 @@
+
+["Speaker Mod Control Values"]
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+	#Jukebox Light Level 0-15. Overworld Night is 4.
+	#Range: 0 ~ 15
+	jukeboxLightLevel = 9
+	#Speaker Light Level 0-15. Overworld Night is 4.
+	#Range: 0 ~ 15
+	speakerLightLevel = 6
+

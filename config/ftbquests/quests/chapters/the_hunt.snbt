@@ -1,0 +1,81 @@
+{
+	id: "0169B0CCF32915B0"
+	group: "06AC45B6636471CA"
+	order_index: 5
+	filename: "the_hunt"
+	title: "The Hunt"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -2.5d
+			id: "040443F149126FBD"
+			tasks: [{
+				id: "7B37A0C4D5D9AE5E"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [{
+				id: "6FF74889BFFD3ABB"
+				type: "loot"
+				table_id: 4220896936447314662L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			id: "4C7B12E4E00E1446"
+			tasks: [{
+				id: "22C4E1788E0A3CBF"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			id: "78B42E9B3B253296"
+			tasks: [{
+				id: "4A4D649A1B7B3242"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			id: "215E71E5F9282492"
+			tasks: [{
+				id: "486C80CB65234D63"
+				type: "checkmark"
+				title: "Trapcraft"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			id: "14178925138CC7F1"
+			tasks: [{
+				id: "05FC6F6C3C6148ED"
+				type: "checkmark"
+				title: "Hostile Neural Networks"
+			}]
+		}
+		{
+			title: "Combat Level 10"
+			x: -3.5d
+			y: -2.5d
+			id: "68A37D7595E90F3C"
+			tasks: [{
+				id: "200744D4C28CE0D6"
+				type: "pmmo:skill"
+				skill: "combat"
+				requiredLevel: 10.0d
+			}]
+		}
+	]
+}

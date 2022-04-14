@@ -1,0 +1,64 @@
+{
+	id: "5D06399373563B80"
+	group: "06AC45B6636471CA"
+	order_index: 1
+	filename: "basic_storage"
+	title: "Basic Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "storagenetwork:master"
+			x: -2.5d
+			y: 0.0d
+			shape: "square"
+			id: "2AAE2D5E74F24D50"
+			tasks: [{
+				id: "4DA64BB16405019C"
+				type: "checkmark"
+				title: "Simple Storage Mod"
+			}]
+			rewards: [{
+				id: "1382DF5E0DF30AC0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			id: "342DAA10DDA8A903"
+			tasks: [{
+				id: "09235FF3CE3D1132"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "6274BB202AFFF1AA"
+				type: "item"
+				team_reward: true
+				item: "storagedrawers:oak_full_drawers_1"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Sophistcated Backpacks"
+			x: -2.5d
+			y: 1.5d
+			shape: "square"
+			id: "2BDBDDD59C4AA470"
+			tasks: [{
+				id: "44D24C9716C19218"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+	]
+}

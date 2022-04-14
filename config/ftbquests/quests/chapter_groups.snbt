@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "06AC45B6636471CA", title: "Welcome" }
+		{ id: "20E9AC8D6021DA96", title: "Storage" }
+		{ id: "6FA2FB28F218CE51", title: "Magic" }
+		{ id: "50E77400C5D9511B", title: "Tech" }
+		{ id: "7406DEF1AD9EBC3F", title: "Farming" }
+		{ id: "583DD0D896FA2405", title: "Decoration" }
+	]
+}

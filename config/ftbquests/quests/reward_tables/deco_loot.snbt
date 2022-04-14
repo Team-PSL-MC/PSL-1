@@ -1,0 +1,17 @@
+{
+	id: "0A89993E5685CE62"
+	order_index: 2
+	title: "Deco Loot"
+	loot_size: 1
+	rewards: [
+		{ item: "multibeds:bed_kit" }
+		{
+			item: {
+				id: "multibeds:bedding_package"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "mcwlights:oak_tiki_torch", count: 64 }
+	]
+}

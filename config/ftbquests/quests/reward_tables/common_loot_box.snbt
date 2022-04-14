@@ -1,0 +1,8 @@
+{
+	id: "3A93A366827A0AE6"
+	order_index: 0
+	title: "Common Loot Box"
+	loot_size: 1
+	use_title: true
+	rewards: [ ]
+}

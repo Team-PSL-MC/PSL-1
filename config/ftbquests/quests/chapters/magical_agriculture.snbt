@@ -1,0 +1,10 @@
+{
+	id: "03B0FC873BC8F6AE"
+	group: "7406DEF1AD9EBC3F"
+	order_index: 1
+	filename: "magical_agriculture"
+	title: "Magical Agriculture"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

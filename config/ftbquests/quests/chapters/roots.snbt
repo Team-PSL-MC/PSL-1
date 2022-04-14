@@ -1,0 +1,10 @@
+{
+	id: "3DF1045E734313CE"
+	group: "6FA2FB28F218CE51"
+	order_index: 5
+	filename: "roots"
+	title: "Roots"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

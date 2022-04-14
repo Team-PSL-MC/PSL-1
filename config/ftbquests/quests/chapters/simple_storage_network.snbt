@@ -1,0 +1,89 @@
+{
+	id: "61CC98701337C1C0"
+	group: "20E9AC8D6021DA96"
+	order_index: 0
+	filename: "simple_storage_network"
+	title: "Simple Storage Network"
+	icon: "storagenetwork:inventory"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Heart of the network"
+			dependencies: ["2AAE2D5E74F24D50"]
+			dependency_requirement: "one_started"
+			id: "356B6C96EAE5B09B"
+			tasks: [{
+				id: "3E39D1EF7CE57EEC"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["356B6C96EAE5B09B"]
+			dependency_requirement: "one_completed"
+			id: "7E0E8DE216A36165"
+			tasks: [{
+				id: "7D17C4C207D43248"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "421BBDD93D2C73AB"
+			tasks: [{
+				id: "0C7402E0E6474FC2"
+				type: "item"
+				item: "storagenetwork:kabel"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "6A14869340A1E3A0"
+			tasks: [{
+				id: "3765A59A8E687C50"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "448D8A5445F6E806"
+			tasks: [{
+				id: "3E067F7F4EFAE524"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "2427B521F8CE77D2"
+			tasks: [{
+				id: "3462204BDC295B02"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "7E6295FE68A1BF42"
+			tasks: [{
+				id: "335B4ACAB8482954"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+		}
+	]
+}

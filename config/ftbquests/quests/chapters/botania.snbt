@@ -1,0 +1,12 @@
+{
+	id: "1527ADA96FA0C22B"
+	group: "6FA2FB28F218CE51"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:light_blue_mystical_flower"
+	subtitle: ["An innovative natural magic themed tech mod"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
